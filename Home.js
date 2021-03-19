@@ -17,21 +17,16 @@ class Home extends React.Component {
                     />
 
                     <View style={styles.titles}>
-                        <Text style={styles.title}>Badger Bytes</Text>
-                        <Text style={styles.subtitle}>Get Your Grub On</Text>
+                        <Text style={styles.title}>Guess Your Friends</Text>
+                        <Text style={styles.subtitle}>Placeholder</Text>
                     </View>
 
-                    <Image
-                        source={require('./assets/UW-MadisonCrest.png')}
-                        style={styles.crest}
-                    />
-
                     <View style={styles.button1}>
-                        <ButtonWithBackground onPress={() => {navigate('Login')}} text='Login' color='#d12a3b' />
+                        <ButtonWithBackground onPress={() => {navigate('Host')}} text='Host a Game' color='#d12a3b' />
                     </View>
 
                     <View style={styles.button2}>
-                        <ButtonWithBackground onPress={() => {navigate('Signup')}} text='Sign Up' color='#d12a3b' />
+                        <ButtonWithBackground onPress={() => {navigate('Join')}} text='Join a Game' color='#d12a3b' />
                     </View>
                 </View>
                 <StatusBar style="auto" />
